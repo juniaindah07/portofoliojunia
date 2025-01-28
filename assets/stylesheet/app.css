@@ -61,7 +61,7 @@ body {
   flex-direction: column; /* Mengatur arah kolom */
   align-items: center; /* Memusatkan konten secara horizontal */
   justify-content: center; /* Memusatkan konten secara vertikal */
-  height: 50vh; /* Menentukan tinggi untuk memusatkan vertikal */
+  height: 55vh; /* Menentukan tinggi untuk memusatkan vertikal */
   text-align: center; /* Memusatkan teks di dalam elemen */
 
 }
@@ -164,7 +164,7 @@ body {
 .thirdContainer {
 
   background-color: #ffffff;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .projects {
   display: flex;
