@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+
+body {
+  background: linear-gradient(hsl(216, 57%, 40%) 0%, #2621ac 40%, #3fbdc9 100%);
+  font-family: "Californian FB", sans-serif;
+}
+
+.bg-light {
+  background: #00000000 !important;
+  /* backdrop-filter: blur(3px);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589); */
+  transition: all 0.5s;
+}
+.bg-light.scrolled {
+  background: #ffffff !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+.nav a {
+  color: white;
+}
+.nav a:hover {
+  color: rgb(84, 102, 243);
+}
+.nav.scrolled a {
+  color: rgb(83, 159, 197);
+}
+.nav.scrolled a:hover {
+  color: rgb(56, 45, 255);
+}
+.buttonToggle {
+  display: none;
+}
+.initial {
+  font-family: "Vampiro One", cursive;
+  font-size: 30px;
+  margin: -10px;
+}
+.all-body-cover {
+  margin-top: 200px;
+}
+.opening {
+  color: rgb(75, 12, 12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.nama {
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  flex-direction: column;
+  font-family: "Californian FB", sans-serif;
+}
+
+.nama {
+  display: flex; /* Menggunakan flexbox */
+  flex-direction: column; /* Mengatur arah kolom */
+  align-items: center; /* Memusatkan konten secara horizontal */
+  justify-content: center; /* Memusatkan konten secara vertikal */
+  height: 50vh; /* Menentukan tinggi untuk memusatkan vertikal */
+  text-align: center; /* Memusatkan teks di dalam elemen */
+
+}
+
+.nama {
+  padding: 20px; /* Menambahkan padding pada container */
+}
+
+.nama h5 {
+  margin: 10px 0; /* Menambahkan margin vertikal pada h5 */
+}
+
+
+.img-thumbnail.rounded-circle {
+  width: 200px;  /* Atur lebar gambar */
+  height: 250px; /* Atur tinggi gambar agar proporsional */
+  object-fit: cover; /* Memastikan gambar terisi dengan baik dalam lingkaran */
+}
+
+.img-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body img {
+  max-width: auto; /* Membuat gambar tidak lebih besar dari elemen induknya */
+  height: auto; /* Menjaga rasio gambar */
+  display: block; /* Menghapus spasi bawaan */
+  margin: 0 auto; /* Memastikan gambar selalu berada di tengah */
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+
+.waves {
+  margin-top: -100px;
+  margin-bottom: 70px;
+}
+.firstContainer {
+  background: linear-gradient(
+    #ffffff 0%,
+    #ffffff 50%,
+    #ffffffde 70%,
+    #ffffffb6 75%,
+    #ffffff7e 80%,
+    #ffffff49 85%,
+    #ffffff1f 90%,
+    #ffffff00 100%
+  );
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding-bottom: 400px;
+}
+.nameHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.subNameHeading {
+  display: none;
+}
+.content .row {
+  padding-bottom: 40px;
+}
+.education {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.itemEdu {
+  padding: 5px;
+}
+.startEnd {
+  margin-bottom: -1px;
+}
+.achive {
+  margin-top: -200px;
+  margin-bottom: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wavesss {
+  margin-bottom: -20px;
+}
+.thirdContainer {
+
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.article-container-firstRow {
+  max-width: 1100px; /* Menggunakan max-width agar responsif */
+  width: 100%; /* Mengatur lebar kontainer menjadi 100% */
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+  text-align: center;
+  box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.589);
+  border-radius: 50px;
+  margin: 0 auto; /* Memusatkan kontainer */
+}
+
+/* Tambahkan media query untuk penyesuaian di perangkat yang lebih kecil */
+@media (max-width: 768px) {
+  .article-container-firstRow {
+    height: auto; /* Mengubah tinggi menjadi auto untuk perangkat kecil */
+  }
+}
+
+.fourthContainer {
+  margin-top: 300px;
+}
+.fivethContainer {
+  margin-top: -150px;
+  background-color: #ffffff;
+}
+.linkSosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.itemSosmed {
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+.contactMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.itemSosmed {
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+}
+.itemSosmed:hover {
+  color: #ff0000; /* Ganti warna saat hover */
+}
